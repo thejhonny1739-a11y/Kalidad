@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "Kalidad",
+  "short_name": "Kalidad",
+  "description": "Toma fotos de evidencia y conviértelas en un PDF, una foto por hoja A4.",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F4F4F5",
+  "theme_color": "#F4F4F5",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

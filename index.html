@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Kalidad</title>
+<meta name="theme-color" content="#F4F4F5">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Kalidad">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<script>try{if(localStorage.getItem('kalidad_tema')==='oscuro')document.documentElement.classList.add('oscuro')}catch(e){}</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" fill="currentColor"><symbol id="i-camera" viewBox="0 0 512 512"><path d="M149.1 64.8L138.7 96H64C28.7 96 0 124.7 0 160V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H373.3L362.9 64.8C356.4 45.2 338.1 32 317.4 32H194.6c-20.7 0-39 13.2-45.5 32.8zM256 192a96 96 0 1 1 0 192 96 96 0 1 1 0-192z"/></symbol><symbol id="i-images" viewBox="0 0 576 512"><path d="M160 32c-35.3 0-64 28.7-64 64V320c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H160zM396 138.7l96 144c4.9 7.4 5.4 16.8 1.2 24.6S480.9 320 472 320H328 280 200c-9.2 0-17.6-5.3-21.6-13.6s-2.9-18.2 2.9-25.4l64-80c4.6-5.7 11.4-9 18.7-9s14.2 3.3 18.7 9l17.3 21.6 56-84C360.5 132 368 128 376 128s15.5 4 20 10.7zM192 128a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM48 120c0-13.3-10.7-24-24-24S0 106.7 0 120V344c0 75.1 60.9 136 136 136H456c13.3 0 24-10.7 24-24s-10.7-24-24-24H136c-48.6 0-88-39.4-88-88V120z"/></symbol><symbol id="i-file-pdf" viewBox="0 0 512 512"><path d="M0 64C0 28.7 28.7 0 64 0L224 0l0 128c0 17.7 14.3 32 32 32l128 0 0 144-208 0c-35.3 0-64 28.7-64 64l0 144-48 0c-35.3 0-64-28.7-64-64L0 64zm384 64l-128 0L256 0 384 128zM176 352l32 0c30.9 0 56 25.1 56 56s-25.1 56-56 56l-16 0 0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48 0-80c0-8.8 7.2-16 16-16zm32 80c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0 48 16 0zm96-80l32 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-32 0c-8.8 0-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16zm32 128c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-16 0 0 96 16 0zm80-112c0-8.8 7.2-16 16-16l48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 32 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64 0-64z"/></symbol><symbol id="i-trash-can" viewBox="0 0 448 512"><path d="M135.2 17.7C140.6 6.8 151.7 0 163.8 0H284.2c12.1 0 23.2 6.8 28.6 17.7L320 32h96c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 96 0 81.7 0 64S14.3 32 32 32h96l7.2-14.3zM32 128H416V448c0 35.3-28.7 64-64 64H96c-35.3 0-64-28.7-64-64V128zm96 64c-8.8 0-16 7.2-16 16V432c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16zm96 0c-8.8 0-16 7.2-16 16V432c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16zm96 0c-8.8 0-16 7.2-16 16V432c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16z"/></symbol><symbol id="i-rotate-right" viewBox="0 0 512 512"><path d="M463.5 224H472c13.3 0 24-10.7 24-24V72c0-9.7-5.8-18.5-14.8-22.2s-19.3-1.7-26.2 5.2L413.4 96.6c-87.6-86.5-228.7-86.2-315.8 1c-87.5 87.5-87.5 229.3 0 316.8s229.3 87.5 316.8 0c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0c-62.5 62.5-163.8 62.5-226.3 0s-62.5-163.8 0-226.3c62.2-62.2 162.7-62.5 225.3-1L327 183c-6.9 6.9-8.9 17.2-5.2 26.2s12.5 14.8 22.2 14.8H463.5z"/></symbol><symbol id="i-arrow-left" viewBox="0 0 448 512"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></symbol><symbol id="i-arrow-right" viewBox="0 0 448 512"><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></symbol><symbol id="i-check" viewBox="0 0 448 512"><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></symbol><symbol id="i-circle-check" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></symbol><symbol id="i-share-nodes" viewBox="0 0 448 512"><path d="M352 224c53 0 96-43 96-96s-43-96-96-96s-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9 .7-7.8 .7-11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z"/></symbol><symbol id="i-download" viewBox="0 0 512 512"><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32V274.7l-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7V32zM64 352c-35.3 0-64 28.7-64 64v32c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V416c0-35.3-28.7-64-64-64H346.5l-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352H64zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></symbol><symbol id="i-plus" viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></symbol><symbol id="i-xmark" viewBox="0 0 384 512"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></symbol><symbol id="i-moon" viewBox="0 0 384 512"><path d="M223.5 32C100 32 0 132.3 0 256S100 480 223.5 480c60.6 0 115.5-24.2 155.8-63.4c5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6c-96.9 0-175.5-78.8-175.5-176c0-65.8 36-123.1 89.3-153.3c6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"/></symbol><symbol id="i-sun" viewBox="0 0 512 512"><path d="M361.5 1.2c5 2.1 8.6 6.6 9.6 11.9L391 121l107.9 19.8c5.3 1 9.8 4.6 11.9 9.6s1.5 10.7-1.6 15.2L446.9 256l62.3 90.3c3.1 4.5 3.7 10.2 1.6 15.2s-6.6 8.6-11.9 9.6L391 391 371.1 498.9c-1 5.3-4.6 9.8-9.6 11.9s-10.7 1.5-15.2-1.6L256 446.9l-90.3 62.3c-4.5 3.1-10.2 3.7-15.2 1.6s-8.6-6.6-9.6-11.9L121 391 13.1 371.1c-5.3-1-9.8-4.6-11.9-9.6s-1.5-10.7 1.6-15.2L65.1 256 2.8 165.7c-3.1-4.5-3.7-10.2-1.6-15.2s6.6-8.6 11.9-9.6L121 121 140.9 13.1c1-5.3 4.6-9.8 9.6-11.9s10.7-1.5 15.2 1.6L256 65.1 346.3 2.8c4.5-3.1 10.2-3.7 15.2-1.6zM160 256a96 96 0 1 1 192 0 96 96 0 1 1 -192 0zm224 0a128 128 0 1 0 -256 0 128 128 0 1 0 256 0z"/></symbol><symbol id="i-floppy-disk" viewBox="0 0 448 512"><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V173.3c0-17-6.7-33.3-18.7-45.3L352 50.7C340 38.7 323.7 32 306.7 32H64zm0 96c0-17.7 14.3-32 32-32H288c17.7 0 32 14.3 32 32v64c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V128zM224 288a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></symbol><symbol id="i-triangle-exclamation" viewBox="0 0 512 512"><path d="M256 32c14.2 0 27.3 7.5 34.5 19.8l216 368c7.3 12.4 7.3 27.7 .2 40.1S486.3 480 472 480H40c-14.3 0-27.6-7.7-34.7-20.1s-7-27.8 .2-40.1l216-368C228.7 39.5 241.8 32 256 32zm0 128c-13.3 0-24 10.7-24 24V296c0 13.3 10.7 24 24 24s24-10.7 24-24V184c0-13.3-10.7-24-24-24zm32 224a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"/></symbol><symbol id="i-circle-info" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></symbol><symbol id="i-chevron-left" viewBox="0 0 320 512"><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/></symbol><symbol id="i-file-circle-check" viewBox="0 0 576 512"><path d="M0 64C0 28.7 28.7 0 64 0H224V128c0 17.7 14.3 32 32 32H384v38.6C310.1 219.5 256 287.4 256 368c0 59.1 29.1 111.3 73.7 143.3c-3.2 .5-6.4 .7-9.7 .7H64c-35.3 0-64-28.7-64-64V64zm384 64H256V0L384 128zM288 368a144 144 0 1 1 288 0 144 144 0 1 1 -288 0zm211.3-43.3c-6.2-6.2-16.4-6.2-22.6 0L416 385.4l-28.7-28.7c-6.2-6.2-16.4-6.2-22.6 0s-6.2 16.4 0 22.6l40 40c6.2 6.2 16.4 6.2 22.6 0l72-72c6.2-6.2 6.2-16.4 0-22.6z"/></symbol></svg>
+
+<nav class="nav" aria-label="Principal">
+  <div class="brand" aria-hidden="true">K</div>
+  <button class="ni on" data-go="fotos" data-tip="Mis fotos"><svg class="ic"><use href="#i-images"/></svg><span>Fotos</span></button>
+  <button class="ni" id="navCam" data-tip="Tomar foto"><svg class="ic"><use href="#i-camera"/></svg><span>Tomar</span></button>
+  <button class="ni" data-go="armar" data-tip="Armar PDF"><svg class="ic"><use href="#i-file-pdf"/></svg><span>PDF</span><i class="nb hidden" id="navBadge">0</i></button>
+  <button class="ni sep" id="navTheme" data-tip="Modo oscuro"><svg class="ic" id="themeIc"><use href="#i-moon"/></svg><span>Tema</span></button>
+</nav>
+
+<main class="wrap">
+  <!-- ===== MIS FOTOS ===== -->
+  <section id="v-fotos">
+    <header class="top">
+      <div>
+        <h1>Mis fotos</h1>
+        <p class="sub">Toma las fotos, elige cuáles van en el PDF y listo.</p>
+      </div>
+    </header>
+
+    <div class="kpis">
+      <div class="kpi"><b id="kTot">0</b><span>En la lista</span></div>
+      <div class="kpi"><b id="kUns" class="wa">0</b><span>Sin guardar en galería</span></div>
+      <div class="kpi"><b id="kSel" class="az">0</b><span>Seleccionadas</span></div>
+    </div>
+
+    <div class="tools">
+      <button class="btn pri" id="btnCam"><svg class="ic"><use href="#i-camera"/></svg>Tomar foto</button>
+      <button class="btn" id="btnGal"><svg class="ic"><use href="#i-plus"/></svg>Agregar de galería</button>
+      <button class="btn" id="btnSave"><svg class="ic"><use href="#i-floppy-disk"/></svg><span>Guardar en galería</span><em id="saveN"></em></button>
+    </div>
+
+    <div id="empty" class="card empty hidden">
+      <svg class="ic big"><use href="#i-camera"/></svg>
+      <h2>Aún no hay fotos</h2>
+      <p>Toca <b>Tomar foto</b> para empezar. Cada toque abre la cámara y agrega una foto a la lista.</p>
+    </div>
+
+    <div id="grid" class="grid"></div>
+
+    <div class="card pdfs hidden" id="pdfBox">
+      <div class="ch"><h3>PDF creados</h3><span class="mut" id="pdfCount"></span></div>
+      <div id="pdfList"></div>
+    </div>
+  </section>
+
+  <!-- ===== ARMAR PDF ===== -->
+  <section id="v-armar" class="hidden">
+    <header class="top">
+      <div>
+        <h1>Armar PDF</h1>
+        <p class="sub">Ordena, gira o quita fotos. Una foto por hoja A4.</p>
+      </div>
+    </header>
+
+    <div id="armarEmpty" class="card empty hidden">
+      <svg class="ic big"><use href="#i-file-pdf"/></svg>
+      <h2>No hay fotos seleccionadas</h2>
+      <p>Vuelve a <b>Mis fotos</b> y toca las fotos que quieres en este PDF.</p>
+      <button class="btn pri" data-go="fotos"><svg class="ic"><use href="#i-arrow-left"/></svg>Ir a mis fotos</button>
+    </div>
+
+    <div id="armarMain" class="armar hidden">
+      <div id="armarList" class="alist"></div>
+      <aside class="card sum">
+        <h3>Resumen</h3>
+        <div class="sumrow"><span class="mut">Título</span><b id="sumTitle"></b></div>
+        <div class="sumrow"><span class="mut">Hojas</span><b id="sumPages"></b></div>
+        <div class="sumrow"><span class="mut">Tamaño</span><b>A4 · sin perder calidad</b></div>
+        <div id="sumWarn" class="warn hidden"><svg class="ic"><use href="#i-triangle-exclamation"/></svg><span id="sumWarnTx"></span></div>
+        <button class="btn pri full" id="btnMake"><svg class="ic"><use href="#i-file-pdf"/></svg>Crear PDF</button>
+        <button class="btn full" data-go="fotos"><svg class="ic"><use href="#i-arrow-left"/></svg>Volver a mis fotos</button>
+        <p class="note">Al crear el PDF, estas fotos salen de la lista. Las que guardaste en tu galería se quedan allí.</p>
+      </aside>
+    </div>
+
+    <div id="result" class="card result hidden">
+      <div class="rtop">
+        <div class="rok"><svg class="ic"><use href="#i-check"/></svg></div>
+        <div><b id="rName"></b><div class="mut" id="rInfo"></div></div>
+      </div>
+      <div class="ract">
+        <button class="btn pri" id="rShare"><svg class="ic"><use href="#i-share-nodes"/></svg>Compartir</button>
+        <button class="btn" id="rDown"><svg class="ic"><use href="#i-download"/></svg>Descargar</button>
+        <button class="btn" id="rBack"><svg class="ic"><use href="#i-images"/></svg>Volver a mis fotos</button>
+      </div>
+      <p class="note">El PDF también queda en <b>PDF creados</b> por si lo necesitas después.</p>
+    </div>
+  </section>
+</main>
+
+<!-- barra de selección -->
+<div class="selbar hidden" id="selbar">
+  <span><b id="selN">0</b> seleccionadas</span>
+  <button class="btn ghost" id="selClear">Quitar</button>
+  <button class="btn pri" id="selGo"><svg class="ic"><use href="#i-file-pdf"/></svg>Armar PDF</button>
+</div>
+
+<!-- diálogo -->
+<div class="overlay hidden" id="modal">
+  <div class="dlg card" role="dialog" aria-modal="true">
+    <div class="dico"><svg class="ic"><use href="#i-triangle-exclamation"/></svg></div>
+    <h3 id="mTitle"></h3>
+    <p id="mText"></p>
+    <div class="dact" id="mAct"></div>
+  </div>
+</div>
+
+<!-- progreso -->
+<div class="overlay hidden" id="prog">
+  <div class="dlg card">
+    <h3 id="pTitle">Creando PDF…</h3>
+    <div class="ptrack"><div class="pfill" id="pFill"></div></div>
+    <p id="pSub" class="mut"></p>
+  </div>
+</div>
+
+<div class="toast hidden" id="toast"></div>
+
+<input type="file" id="inCam" accept="image/*" capture="environment" hidden>
+<input type="file" id="inGal" accept="image/*" multiple hidden>
+
+<script src="pdf-lib.min.js"></script>
+<script src="core.js"></script>
+<script src="db.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
