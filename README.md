@@ -12,4 +12,4 @@ App web instalable (PWA) para tomar fotos de evidencia y convertirlas en PDF (un
 ## Notas
 - Las fotos y PDF se guardan en cada dispositivo (no se sincronizan entre equipos).
 - "Guardar en galería" abre el menú de compartir: en iPhone elige "Guardar imagen". En escritorio descarga los archivos.
-- Instálala en la pantalla de inicio para que el sistema no borre las fotos guardadas en la app.
+- Instálala en la pantalla de inicio para que el sistema no borre las fotos guardadas en la app. 
